@@ -21,7 +21,28 @@ The original icon set, with icons of 16x16 pixels, was specially created for low
 - [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
 - [Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library)
 
-### Usage 
+## Usage 
+
+### (Optional) Installation in the Arduino IDE
+
+1. **Download the Library**: 
+   - First, download the `arduino-oled-icons.zip` file provided in the repository.
+
+2. **Open the Arduino IDE**: 
+   - Launch your Arduino IDE.
+
+3. **Add the ZIP Library**: 
+   - Navigate to **Sketch > Include Library > Add .ZIP Library...** from the Arduino IDE's main menu.
+   - A file dialog will open. Locate the `arduino-oled-icons.zip` file you downloaded in step 1 and select it.
+
+4. **Check Installation**: 
+   - Restart the Arduino IDE.
+   - Navigate to **Sketch > Include Library**. You should now see `arduino-oled-icons` listed among the libraries.
+
+5. **Usage**:
+   - Once installed, you can include and use the library in your projects as demonstrated in the Usage section below.
+
+### Code Example
 
 ```cpp
 #include <Adafruit_GFX.h>
@@ -32,13 +53,22 @@ The original icon set, with icons of 16x16 pixels, was specially created for low
 display.drawBitmap(0, 34, arrow_down_icon16x16, 16, 16, 1);
 ```
 
-The original author encourages users to create cool projects, have fun with the icons, and share what they've learned with others. I have brought this project to GitHub to make it more accessible and project a place for community discussion.
+The original author encourages users to create cool projects, have fun with the icons, and share what they've learned with others. I have brought this project to GitHub to make it more accessible and to provide a place for community discussion.
 
 # Modifications & Additional Features
 
-- [ ] Provide individual icon files for import
-- [ ] Add python script to convert icons
-- [ ] Extend icon set
+To build a ZIP release, do the following:
+
+```
+chmod +x build_release.sh
+./build_release.sh
+```
+
+Now you will have a new ZIP with your changed files & can import this into Arduino IDE
+
+# To Do
+- [ ] Provide individual icon files for slimmer imports
+- [ ] Extend icon set (refresh, screen on/off, sleep/moon) & smaller icon choices
 
 # Contributing
 All contributions are welcome, this is a small part of a larger project I'm undertaking but I will always endevour to help anyone trying to add or fix parts of this project.
