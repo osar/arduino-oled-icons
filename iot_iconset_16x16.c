@@ -29,7 +29,7 @@ display.drawBitmap(0, 34, home_icon16x16, 16, 16, 1);
 
 #include "iot_iconset_16x16.h"
 
-unsigned char home_icon16x16[] = 
+const unsigned char home_icon16x16[] = 
 {
 	0b00000111, 0b11100000, //      ######      
 	0b00001111, 0b11110000, //     ########     
@@ -48,7 +48,7 @@ unsigned char home_icon16x16[] =
 	0b11111100, 0b00111111, // ######    ######
 	0b11111100, 0b00111111, // ######    ######
 };
-unsigned char arrow_up_icon16x16[] =
+const unsigned char arrow_up_icon16x16[] =
 {
 	0b00000001, 0b10000000, //        ##       
 	0b00000011, 0b11000000, //       ####      
@@ -68,7 +68,7 @@ unsigned char arrow_up_icon16x16[] =
 	0b00001111, 0b11110000, //     ########    
 };
 
-unsigned char arrow_down_icon16x16[] =
+const unsigned char arrow_down_icon16x16[] =
 {
 	0b00001111, 0b11110000, //     ########    
 	0b00011111, 0b11111000, //    ##########   
@@ -88,7 +88,7 @@ unsigned char arrow_down_icon16x16[] =
 	0b00000001, 0b10000000, //        ##       
 };
 
-unsigned char arrow_left_icon16x16[] =
+const unsigned char arrow_left_icon16x16[] =
 {
 	0b00000001, 0b10000000, //        ##       
 	0b00000011, 0b11000000, //       ####      
@@ -108,7 +108,7 @@ unsigned char arrow_left_icon16x16[] =
 	0b00000001, 0b10000000, //        ##       
 };
 
-unsigned char arrow_right_icon16x16[] =
+const unsigned char arrow_right_icon16x16[] =
 {
 	0b00000001, 0b10000000, //        ##       
 	0b00000011, 0b11000000, //       ####      
@@ -128,7 +128,7 @@ unsigned char arrow_right_icon16x16[] =
 	0b00000001, 0b10000000, //        ##       
 };
 
-unsigned char bat0_icon16x16[] =
+const unsigned char bat0_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -148,7 +148,7 @@ unsigned char bat0_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char bat1_icon16x16[] =
+const unsigned char bat1_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -168,7 +168,7 @@ unsigned char bat1_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char bat2_icon16x16[] =
+const unsigned char bat2_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -188,7 +188,7 @@ unsigned char bat2_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char bat3_icon16x16[] =
+const unsigned char bat3_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -208,7 +208,7 @@ unsigned char bat3_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char bat4_icon16x16[] =
+const unsigned char bat4_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -228,7 +228,7 @@ unsigned char bat4_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char bluetooth_icon16x16[] =
+const unsigned char bluetooth_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000001, 0b10000000, //        ##       
@@ -248,7 +248,7 @@ unsigned char bluetooth_icon16x16[] =
 	0b00000001, 0b10000000, //        ##       
 };
 
-unsigned char bulb_icon16x16[] =
+const unsigned char bulb_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000011, 0b11100000, //       #####     
@@ -268,7 +268,7 @@ unsigned char bulb_icon16x16[] =
 	0b00000011, 0b11100000, //       #####     
 };
 
-unsigned char bulb_on_icon16x16[] =
+const unsigned char bulb_on_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00100011, 0b11100010, //   #   #####   # 
@@ -288,7 +288,7 @@ unsigned char bulb_on_icon16x16[] =
 	0b00000011, 0b11100000, //       #####     
 };
 
-unsigned char bulb_off_icon16x16[] =
+const unsigned char bulb_off_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000011, 0b11100000, //       #####     
@@ -308,7 +308,7 @@ unsigned char bulb_off_icon16x16[] =
 	0b00000011, 0b11100000, //       #####     
 };
 
-unsigned char bullet_icon16x16[] =
+const unsigned char bullet_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -328,7 +328,7 @@ unsigned char bullet_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char cancel_icon16x16[] =
+const unsigned char cancel_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -348,7 +348,7 @@ unsigned char cancel_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char check_icon16x16[] =
+const unsigned char check_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -368,7 +368,7 @@ unsigned char check_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char fillstate1_icon16x16[] =
+const unsigned char fillstate1_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -388,7 +388,7 @@ unsigned char fillstate1_icon16x16[] =
 	0b01111111, 0b11111110, //  ############## 
 };
 
-unsigned char fillstate2_icon16x16[] =
+const unsigned char fillstate2_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -408,7 +408,7 @@ unsigned char fillstate2_icon16x16[] =
 	0b01111111, 0b11111110, //  ############## 
 };
 
-unsigned char fillstate3_icon16x16[] =
+const unsigned char fillstate3_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -428,7 +428,7 @@ unsigned char fillstate3_icon16x16[] =
 	0b01111111, 0b11111110, //  ############## 
 };
 
-unsigned char fillstate4_icon16x16[] =
+const unsigned char fillstate4_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b01111111, 0b11111110, //  ############## 
@@ -448,7 +448,7 @@ unsigned char fillstate4_icon16x16[] =
 	0b01111111, 0b11111110, //  ############## 
 };
 
-unsigned char speak_icon16x16[] =
+const unsigned char speak_icon16x16[] =
 {
 	0b00111111, 0b11111100, //   ############  
 	0b01111111, 0b11111110, //  ############## 
@@ -468,7 +468,7 @@ unsigned char speak_icon16x16[] =
 	0b00001100, 0b00000000, //     ##          
 };
 
-unsigned char heart_icon16x16[] =
+const unsigned char heart_icon16x16[] =
 {                
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -488,7 +488,7 @@ unsigned char heart_icon16x16[] =
 	0b00000001, 0b00000000, //    	  #
 };
 
-unsigned char nocon_icon16x16[] =
+const unsigned char nocon_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000011, 0b11100000, //       #####     
@@ -507,7 +507,7 @@ unsigned char nocon_icon16x16[] =
 	0b00000011, 0b11100000, //       #####     
 	0b00000000, 0b00000000, //                 
 };
-unsigned char tool_icon16x16[] =
+const unsigned char tool_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b01100000, //          ##     
@@ -527,7 +527,7 @@ unsigned char tool_icon16x16[] =
 	0b01110000, 0b00000000, //  ###            
 };
 
-unsigned char plug_icon16x16[] =
+const unsigned char plug_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -547,7 +547,7 @@ unsigned char plug_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char powerbutton_icon16x16[] =
+const unsigned char powerbutton_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000001, 0b11000000, //        ###      
@@ -567,7 +567,7 @@ unsigned char powerbutton_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char wallplug_icon16x16[] =
+const unsigned char wallplug_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b11111111, 0b11111111, // ################
@@ -587,7 +587,7 @@ unsigned char wallplug_icon16x16[] =
 	0b11111111, 0b11111111, // ################
 };
 
-unsigned char wifi1_icon16x16[] =
+const unsigned char wifi1_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000111, 0b11100000, //      ######     
@@ -607,7 +607,7 @@ unsigned char wifi1_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char wifi2_icon16x16[] =
+const unsigned char wifi2_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -627,7 +627,7 @@ unsigned char wifi2_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char clock_icon16x16[] =
+const unsigned char clock_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -647,7 +647,7 @@ unsigned char clock_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char timer_icon16x16[] =
+const unsigned char timer_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -667,7 +667,7 @@ unsigned char timer_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char water_tap_icon16x16[] =
+const unsigned char water_tap_icon16x16[] =
 {
 	0b00000001, 0b10000000, //        ##       
 	0b00000111, 0b11100000, //      ######     
@@ -687,7 +687,7 @@ unsigned char water_tap_icon16x16[] =
 	0b00000000, 0b00001100, //             ##  
 };
 
-unsigned char humidity_icon16x16[] =
+const unsigned char humidity_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000001, 0b10000000, //        ##       
@@ -707,7 +707,7 @@ unsigned char humidity_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char humidity2_icon16x16[] =
+const unsigned char humidity2_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000001, 0b10000000, //        ##       
@@ -727,7 +727,7 @@ unsigned char humidity2_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char sun_icon16x16[] =
+const unsigned char sun_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00100000, 0b10000010, //   #     #     # 
@@ -747,7 +747,7 @@ unsigned char sun_icon16x16[] =
 	0b00000000, 0b10000000, //         #       
 };
 
-unsigned char temperature_icon16x16[] =
+const unsigned char temperature_icon16x16[] =
 {
 	0b00000001, 0b11000000, //        ###      
 	0b00000011, 0b11100000, //       #####     
@@ -767,7 +767,7 @@ unsigned char temperature_icon16x16[] =
 	0b00000111, 0b11100000, //      ######     
 };
 
-unsigned char noninverted_icon16x16[] =
+const unsigned char noninverted_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b01111111, 0b11111110, //  ############## 
@@ -787,7 +787,7 @@ unsigned char noninverted_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char inverted_icon16x16[] =
+const unsigned char inverted_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b01111111, 0b11111110, //  ############## 
@@ -807,7 +807,7 @@ unsigned char inverted_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char lock_closed_icon16x16[] =
+const unsigned char lock_closed_icon16x16[] =
 {
 	0b00111111, 0b11111100, //   ############  
 	0b00111111, 0b11111100, //   ############  
@@ -827,7 +827,7 @@ unsigned char lock_closed_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char lock_open_icon16x16[] =
+const unsigned char lock_open_icon16x16[] =
 {
 	0b00111111, 0b11111100, //   ############  
 	0b00111111, 0b11111100, //   ############  
@@ -847,7 +847,7 @@ unsigned char lock_open_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 };
 
-unsigned char person_icon16x16[] =
+const unsigned char person_icon16x16[] =
 {
 	0b00000111, 0b11100000, //      ######     
 	0b00001111, 0b11110000, //     ########    
@@ -866,7 +866,7 @@ unsigned char person_icon16x16[] =
 	0b11111111, 0b11111111, // ################
 	0b11111111, 0b11111111, // ################
 };
-unsigned char window_icon16x16[] =
+const unsigned char window_icon16x16[] =
 {
 	0b01111111, 0b11111111, //  ###############
 	0b01111111, 0b11111111, //  ###############
@@ -885,7 +885,7 @@ unsigned char window_icon16x16[] =
 	0b01111111, 0b11111111, //  ###############
 	0b01111111, 0b11111111, //  ###############
 };
-unsigned char door_icon16x16[] =
+const unsigned char door_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -904,7 +904,7 @@ unsigned char door_icon16x16[] =
 	0b00000011, 0b00100000, //       ##  #     
 	0b00000000, 0b11100000, //         ###     
 };
-unsigned char face_icon16x16[] =
+const unsigned char face_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000001, 0b11000000, //        ###      
@@ -923,7 +923,7 @@ unsigned char face_icon16x16[] =
 	0b00000011, 0b11100000, //       #####     
 	0b00000000, 0b00000000, //                 
 };
-unsigned char siren_icon16x16[] =
+const unsigned char siren_icon16x16[] =
 {
 	0b10000000, 0b10000001, // #       #      #
 	0b01000000, 0b10000010, //  #      #     # 
@@ -942,7 +942,7 @@ unsigned char siren_icon16x16[] =
 	0b01111111, 0b11111111, //  ###############
 	0b00000000, 0b00000000, //                 
 };
-unsigned char warning_icon16x16[] =
+const unsigned char warning_icon16x16[] =
 {
 	0b00000000, 0b10000000, //         #       
 	0b00000001, 0b11000000, //        ###      
@@ -961,7 +961,7 @@ unsigned char warning_icon16x16[] =
 	0b01111111, 0b11111111, //  ###############
 	0b00000000, 0b00000000, //                 
 };
-unsigned char plus_icon16x16[] =
+const unsigned char plus_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -980,7 +980,7 @@ unsigned char plus_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
 };
-unsigned char minus_icon16x16[] =
+const unsigned char minus_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -999,7 +999,7 @@ unsigned char minus_icon16x16[] =
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
 };
-unsigned char mobile_icon16x16[] =
+const unsigned char mobile_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00110000, //           ##    
@@ -1018,7 +1018,7 @@ unsigned char mobile_icon16x16[] =
 	0b00001111, 0b11111000, //     #########   
 	0b00001111, 0b11111000, //     #########   
 };
-unsigned char signal1_icon16x16[] =
+const unsigned char signal1_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -1037,7 +1037,7 @@ unsigned char signal1_icon16x16[] =
 	0b11000000, 0b00000000, // ##              
 	0b11000000, 0b00000000, // ##              
 };
-unsigned char signal2_icon16x16[] =
+const unsigned char signal2_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -1056,7 +1056,7 @@ unsigned char signal2_icon16x16[] =
 	0b11011100, 0b00000000, // ## ###          
 	0b11011100, 0b00000000, // ## ###          
 };
-unsigned char signal3_icon16x16[] =
+const unsigned char signal3_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000000, //                 
@@ -1075,7 +1075,7 @@ unsigned char signal3_icon16x16[] =
 	0b11011101, 0b11000000, // ## ### ###      
 	0b11011101, 0b11000000, // ## ### ###      
 };
-unsigned char signal4_icon16x16[] =
+const unsigned char signal4_icon16x16[] =
 {
 	0b00000000, 0b00000000, //                 
 	0b00000000, 0b00000100, //              #  
@@ -1094,8 +1094,44 @@ unsigned char signal4_icon16x16[] =
 	0b11011101, 0b11011100, // ## ### ### ###  
 	0b11011101, 0b11011100, // ## ### ### ###  
 };
-
-
+const unsigned char pause_icon16x16[] = 
+{
+	0b00000000, 0b00000000, //                 
+	0b00001110, 0b00111000, //     ###   ###   
+	0b00001110, 0b00111000, //     ###   ###   
+	0b00001110, 0b00111000, //     ###   ###   
+	0b00001110, 0b00111000, //     ###   ###   
+	0b00001110, 0b00111000, //     ###   ###   
+	0b00001110, 0b00111000, //     ###   ###   
+	0b00001110, 0b00111000, //     ###   ###   
+	0b00001110, 0b00111000, //     ###   ###   
+	0b00001110, 0b00111000, //     ###   ###   
+	0b00001110, 0b00111000, //     ###   ###   
+	0b00001110, 0b00111000, //     ###   ###   
+	0b00001110, 0b00111000, //     ###   ###   
+	0b00001110, 0b00111000, //     ###   ###   
+	0b00000000, 0b00000000, //                 
+	0b00000000, 0b00000000  //                 
+};
+const unsigned char play_icon16x16[] = 
+{
+	0b00000000,0b00000000, //                 
+	0b00000100,0b00000000, //    #              
+	0b00000110,0b00000000, //    ##             
+	0b00000111,0b00000000, //    ###            
+	0b00000111,0b10000000, //    ####           
+	0b00000111,0b11000000, //    #####          
+	0b00000111,0b11100000, //    ######         
+	0b00000111,0b11110000, //    #######        
+	0b00000111,0b11110000, //    #######        
+	0b00000111,0b11100000, //    ######         
+	0b00000111,0b11000000, //    #####          
+	0b00000111,0b10000000, //    ####           
+	0b00000111,0b00000000, //    ###            
+	0b00000110,0b00000000, //    ##             
+	0b00000100,0b00000000, //    #              
+	0b00000000,0b00000000  //                 
+};
 
 
 
